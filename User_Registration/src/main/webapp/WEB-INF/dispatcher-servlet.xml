@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	
+	<!-- handler Mapping class for Annotation based program -->
+	<bean id="anno"
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+	</bean>
+	<!-- for file uploaing   -->
+<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"></bean>
+	<!-- Resource bundle class cfg for validation error messages -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="com/nt/commons/server_validations" />
+	</bean>
+
+	<!--View Resolver class -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property value="/WEB-INF/pages/" name="prefix" />
+		<property value=".jsp" name="suffix" />
+	 </bean>
+	 <import resource="classpath:application-context.xml"/> 
+   <context:component-scan base-package="com.nt.controller ,com.nt.validate,com.nt.log4jConfing"></context:component-scan>
+</beans>

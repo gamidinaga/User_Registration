@@ -1,0 +1,1983 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Oct 03 14:04:39 IST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>4995</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Registered injected element on class [com.nt.user.service.UserRegistrationServiceImpl]: AutowiredFieldElement for private com.nt.user.dao.UserRegistrationDAO com.nt.user.service.UserRegistrationServiceImpl.userRegistrationDAO</td>
+</tr>
+
+<tr>
+<td>5044</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Registered injected element on class [com.nt.user.service.UserRegistrationServiceImpl]: AutowiredFieldElement for private com.nt.common.dao.CommonQueriesDao com.nt.user.service.UserRegistrationServiceImpl.commonQueriesDao</td>
+</tr>
+
+<tr>
+<td>5044</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'regService' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5049</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Processing injected element of bean 'regService': AutowiredFieldElement for private com.nt.user.dao.UserRegistrationDAO com.nt.user.service.UserRegistrationServiceImpl.userRegistrationDAO</td>
+</tr>
+
+<tr>
+<td>5050</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'userRegistrationDAOImpl'</td>
+</tr>
+
+<tr>
+<td>5050</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'userRegistrationDAOImpl'</td>
+</tr>
+
+<tr>
+<td>5051</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Registered injected element on class [com.nt.user.dao.UserRegistrationDAOImpl]: AutowiredFieldElement for org.hibernate.SessionFactory com.nt.user.dao.UserRegistrationDAOImpl.sessionFactory</td>
+</tr>
+
+<tr>
+<td>5052</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Registered injected element on class [com.nt.user.dao.UserRegistrationDAOImpl]: AutowiredFieldElement for com.nt.common.dao.CommonQueriesDao com.nt.user.dao.UserRegistrationDAOImpl.commonQueriesDao</td>
+</tr>
+
+<tr>
+<td>5052</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'userRegistrationDAOImpl' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5056</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Processing injected element of bean 'userRegistrationDAOImpl': AutowiredFieldElement for org.hibernate.SessionFactory com.nt.user.dao.UserRegistrationDAOImpl.sessionFactory</td>
+</tr>
+
+<tr>
+<td>5056</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'sessionFactory'</td>
+</tr>
+
+<tr>
+<td>5056</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'userRegistrationDAOImpl' to bean named 'sessionFactory'</td>
+</tr>
+
+<tr>
+<td>5056</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Processing injected element of bean 'userRegistrationDAOImpl': AutowiredFieldElement for com.nt.common.dao.CommonQueriesDao com.nt.user.dao.UserRegistrationDAOImpl.commonQueriesDao</td>
+</tr>
+
+<tr>
+<td>5057</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'commonQueriesDaoImpl'</td>
+</tr>
+
+<tr>
+<td>5057</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'userRegistrationDAOImpl' to bean named 'commonQueriesDaoImpl'</td>
+</tr>
+
+<tr>
+<td>5057</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5060</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.user.dao.UserRegistrationDAOImpl.createUser' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5060</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator category">org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator</td>
+<td title="Message">Creating implicit proxy for bean 'userRegistrationDAOImpl' with 0 common interceptors and 1 specific interceptors</td>
+</tr>
+
+<tr>
+<td>5060</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.JdkDynamicAopProxy category">org.springframework.aop.framework.JdkDynamicAopProxy</td>
+<td title="Message">Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.nt.user.dao.UserRegistrationDAOImpl@3c89bb12]</td>
+</tr>
+
+<tr>
+<td>5063</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'userRegistrationDAOImpl'</td>
+</tr>
+
+<tr>
+<td>5063</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'regService' to bean named 'userRegistrationDAOImpl'</td>
+</tr>
+
+<tr>
+<td>5064</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Processing injected element of bean 'regService': AutowiredFieldElement for private com.nt.common.dao.CommonQueriesDao com.nt.user.service.UserRegistrationServiceImpl.commonQueriesDao</td>
+</tr>
+
+<tr>
+<td>5064</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'commonQueriesDaoImpl'</td>
+</tr>
+
+<tr>
+<td>5064</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'regService' to bean named 'commonQueriesDaoImpl'</td>
+</tr>
+
+<tr>
+<td>5064</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5066</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.user.service.UserRegistrationServiceImpl.createUser' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5066</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator category">org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator</td>
+<td title="Message">Creating implicit proxy for bean 'regService' with 0 common interceptors and 1 specific interceptors</td>
+</tr>
+
+<tr>
+<td>5066</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.JdkDynamicAopProxy category">org.springframework.aop.framework.JdkDynamicAopProxy</td>
+<td title="Message">Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.nt.user.service.UserRegistrationServiceImpl@8a62297]</td>
+</tr>
+
+<tr>
+<td>5073</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'regService'</td>
+</tr>
+
+<tr>
+<td>5073</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'userRegistrationController' to bean named 'regService'</td>
+</tr>
+
+<tr>
+<td>5073</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5076</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.converter' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5076</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator category">org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator</td>
+<td title="Message">Creating implicit proxy for bean 'userRegistrationController' with 0 common interceptors and 1 specific interceptors</td>
+</tr>
+
+<tr>
+<td>5096</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.nt.controller.UserRegistrationController@1bcf67e8]</td>
+</tr>
+
+<tr>
+<td>5212</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'</td>
+</tr>
+
+<tr>
+<td>5212</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'</td>
+</tr>
+
+<tr>
+<td>5212</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5228</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'</td>
+</tr>
+
+<tr>
+<td>5228</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'</td>
+</tr>
+
+<tr>
+<td>5228</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public void com.nt.controller.UserRegistrationController.converter(org.springframework.web.bind.WebDataBinder)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.editUser' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String com.nt.controller.UserRegistrationController.editUser(org.springframework.ui.Model,com.nt.command.UserRegistrationCmd,int)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.populateLanguage' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.util.List com.nt.controller.UserRegistrationController.populateLanguage()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.populateState' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.util.List com.nt.controller.UserRegistrationController.populateState()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.removeUser' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String com.nt.controller.UserRegistrationController.removeUser(org.springframework.ui.Model,int)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.downloadFile' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String com.nt.controller.UserRegistrationController.downloadFile(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.launchFormPage' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String com.nt.controller.UserRegistrationController.launchFormPage(com.nt.command.UserRegistrationCmd)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.loadData' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String com.nt.controller.UserRegistrationController.loadData(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.registerForm' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String com.nt.controller.UserRegistrationController.registerForm(org.springframework.ui.Model,com.nt.command.UserRegistrationCmd,org.springframework.validation.BindingResult) throws java.io.IOException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.controller.UserRegistrationController.populateCountries' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.util.List com.nt.controller.UserRegistrationController.populateCountries()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: public java.lang.String java.lang.Object.toString()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found 'hashCode' method: public native int java.lang.Object.hashCode()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimizations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)</td>
+</tr>
+
+<tr>
+<td>5243</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()</td>
+</tr>
+
+<tr>
+<td>5259</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()</td>
+</tr>
+
+<tr>
+<td>5312</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'userRegistrationController'</td>
+</tr>
+
+<tr>
+<td>5312</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'log4JConfiguration'</td>
+</tr>
+
+<tr>
+<td>5312</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'log4JConfiguration'</td>
+</tr>
+
+<tr>
+<td>5313</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'log4JConfiguration' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5315</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5318</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'log4JConfiguration'</td>
+</tr>
+
+<tr>
+<td>5318</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'userRegistrationDAOImpl'</td>
+</tr>
+
+<tr>
+<td>5318</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'regService'</td>
+</tr>
+
+<tr>
+<td>5318</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'formValidate'</td>
+</tr>
+
+<tr>
+<td>5318</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'</td>
+</tr>
+
+<tr>
+<td>5319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'</td>
+</tr>
+
+<tr>
+<td>5319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'</td>
+</tr>
+
+<tr>
+<td>5319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'</td>
+</tr>
+
+<tr>
+<td>5319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'</td>
+</tr>
+
+<tr>
+<td>5319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'</td>
+</tr>
+
+<tr>
+<td>5319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'</td>
+</tr>
+
+<tr>
+<td>5322</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5325</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5326</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'</td>
+</tr>
+
+<tr>
+<td>5326</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5326</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5327</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5332</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5332</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5332</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'</td>
+</tr>
+
+<tr>
+<td>5332</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'dbcpDs'</td>
+</tr>
+
+<tr>
+<td>5333</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'sessionFactory'</td>
+</tr>
+
+<tr>
+<td>5333</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'ht'</td>
+</tr>
+
+<tr>
+<td>5333</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'ht'</td>
+</tr>
+
+<tr>
+<td>5368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'ht' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5380</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'sessionFactory'</td>
+</tr>
+
+<tr>
+<td>5380</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Invoking afterPropertiesSet() on bean with name 'ht'</td>
+</tr>
+
+<tr>
+<td>5380</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5382</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'ht'</td>
+</tr>
+
+<tr>
+<td>5382</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'hibernateTransactionManager'</td>
+</tr>
+
+<tr>
+<td>5382</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'hibernateTransactionManager'</td>
+</tr>
+
+<tr>
+<td>5396</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'hibernateTransactionManager' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5409</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'sessionFactory'</td>
+</tr>
+
+<tr>
+<td>5409</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Invoking afterPropertiesSet() on bean with name 'hibernateTransactionManager'</td>
+</tr>
+
+<tr>
+<td>5451</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Using DataSource [org.apache.commons.dbcp.BasicDataSource@55141def] of Hibernate SessionFactory for HibernateTransactionManager</td>
+</tr>
+
+<tr>
+<td>5461</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5462</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'hibernateTransactionManager'</td>
+</tr>
+
+<tr>
+<td>5462</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5462</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5463</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>5468</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5468</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'</td>
+</tr>
+
+<tr>
+<td>5469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'</td>
+</tr>
+
+<tr>
+<td>5469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'</td>
+</tr>
+
+<tr>
+<td>5469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'</td>
+</tr>
+
+<tr>
+<td>5536</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.context.support.GenericApplicationContext category">org.springframework.context.support.GenericApplicationContext</td>
+<td title="Message">Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2679311f]</td>
+</tr>
+
+<tr>
+<td>5536</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'lifecycleProcessor'</td>
+</tr>
+
+<tr>
+<td>5547</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Could not find key 'spring.liveBeansView.mbeanDomain' in any property source</td>
+</tr>
+
+<tr>
+<td>5560</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate category">org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate</td>
+<td title="Message">Storing ApplicationContext in cache under key [[MergedContextConfiguration@7f560810 testClass = UserRegistrationServiceTest, locations = '{classpath:application-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]</td>
+</tr>
+
+<tr>
+<td>5560</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.test.context.cache category">org.springframework.test.context.cache</td>
+<td title="Message">Spring test ApplicationContext cache statistics: [DefaultContextCache@3fa76c61 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]</td>
+</tr>
+
+<tr>
+<td>5564</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Processing injected element of bean 'com.nt.user.service.UserRegistrationServiceTest': AutowiredFieldElement for com.nt.user.service.UserRegistrationService com.nt.user.service.UserRegistrationServiceTest.userRegistrationService</td>
+</tr>
+
+<tr>
+<td>5565</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'regService'</td>
+</tr>
+
+<tr>
+<td>5565</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'com.nt.user.service.UserRegistrationServiceTest' to bean named 'regService'</td>
+</tr>
+
+<tr>
+<td>5565</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.InjectionMetadata category">org.springframework.beans.factory.annotation.InjectionMetadata</td>
+<td title="Message">Processing injected element of bean 'com.nt.user.service.UserRegistrationServiceTest': AutowiredFieldElement for com.nt.common.dao.CommonQueriesDao com.nt.user.service.UserRegistrationServiceTest.commonQueriesDao</td>
+</tr>
+
+<tr>
+<td>5566</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'commonQueriesDaoImpl'</td>
+</tr>
+
+<tr>
+<td>5566</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor category">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</td>
+<td title="Message">Autowiring by type from bean name 'com.nt.user.service.UserRegistrationServiceTest' to bean named 'commonQueriesDaoImpl'</td>
+</tr>
+
+<tr>
+<td>5566</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>5572</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener category">org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener</td>
+<td title="Message">Before test method: context [DefaultTestContext@153f5a29 testClass = UserRegistrationServiceTest, testInstance = com.nt.user.service.UserRegistrationServiceTest@4590c9c3, testMethod = testCreateUser@UserRegistrationServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f560810 testClass = UserRegistrationServiceTest, locations = '{classpath:application-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].</td>
+</tr>
+
+<tr>
+<td>5586</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'hibernateTransactionManager'</td>
+</tr>
+
+<tr>
+<td>5624</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Creating new transaction with name [com.nt.user.service.UserRegistrationServiceImpl.createUser]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''</td>
+</tr>
+
+<tr>
+<td>5823</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.stat.internal.StatisticsInitiator category">org.hibernate.stat.internal.StatisticsInitiator</td>
+<td title="Message">Statistics initialized [enabled=false]</td>
+</tr>
+
+<tr>
+<td>5832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Opened new Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for Hibernate transaction</td>
+</tr>
+
+<tr>
+<td>5834</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Preparing JDBC Connection of Hibernate Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]</td>
+</tr>
+
+<tr>
+<td>5837</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.transaction.internal.TransactionImpl category">org.hibernate.engine.transaction.internal.TransactionImpl</td>
+<td title="Message">begin</td>
+</tr>
+
+<tr>
+<td>5868</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/db1, UserName=root@localhost, MySQL-AB JDBC Driver]</td>
+</tr>
+
+<tr>
+<td>5868</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Found thread-bound Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for Hibernate transaction</td>
+</tr>
+
+<tr>
+<td>5868</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Participating in existing transaction</td>
+</tr>
+
+<tr>
+<td>5900</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    select
+        country0_.ID as ID1_0_,
+        country0_.CODE as CODE2_0_,
+        country0_.DESCRIPTION as DESCRIPT3_0_ 
+    from
+        REF_COUNTRY country0_ 
+    where
+        country0_.CODE=?</td>
+</tr>
+
+<tr>
+<td>6269</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.loader.Loader category">org.hibernate.loader.Loader</td>
+<td title="Message">Result set row: 0</td>
+</tr>
+
+<tr>
+<td>6300</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.loader.Loader category">org.hibernate.loader.Loader</td>
+<td title="Message">Result row: EntityKey[com.nt.common.utils.Country#2]</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.internal.TwoPhaseLoad category">org.hibernate.engine.internal.TwoPhaseLoad</td>
+<td title="Message">Resolving associations for [com.nt.common.utils.Country#2]</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.internal.TwoPhaseLoad category">org.hibernate.engine.internal.TwoPhaseLoad</td>
+<td title="Message">Done materializing entity [com.nt.common.utils.Country#2]</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource category">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</td>
+<td title="Message">Adding transactional method 'com.nt.common.dao.impl.CommonQueriesDaoImpl.findStateByCode' with attribute: PROPAGATION_SUPPORTS,ISOLATION_DEFAULT</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Found thread-bound Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.nt.common.utils.Country#2]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for Hibernate transaction</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Participating in existing transaction</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Processing flush-time cascades</td>
+</tr>
+
+<tr>
+<td>6316</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Dirty checking collections</td>
+</tr>
+
+<tr>
+<td>6337</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects</td>
+</tr>
+
+<tr>
+<td>6337</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections</td>
+</tr>
+
+<tr>
+<td>6337</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">Listing entities:</td>
+</tr>
+
+<tr>
+<td>6337</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.common.utils.Country{countryDesc=Australia, countryCode=AU, id=2}</td>
+</tr>
+
+<tr>
+<td>6337</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    select
+        state0_.ID as ID1_1_,
+        state0_.CODE as CODE2_1_,
+        state0_.DESCRIPTION as DESCRIPT3_1_ 
+    from
+        REF_STATE state0_ 
+    where
+        state0_.CODE=?</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.loader.Loader category">org.hibernate.loader.Loader</td>
+<td title="Message">Result set row: 0</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.loader.Loader category">org.hibernate.loader.Loader</td>
+<td title="Message">Result row: EntityKey[com.nt.common.utils.State#4]</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.internal.TwoPhaseLoad category">org.hibernate.engine.internal.TwoPhaseLoad</td>
+<td title="Message">Resolving associations for [com.nt.common.utils.State#4]</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.internal.TwoPhaseLoad category">org.hibernate.engine.internal.TwoPhaseLoad</td>
+<td title="Message">Done materializing entity [com.nt.common.utils.State#4]</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Found thread-bound Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.nt.common.utils.Country#2], EntityKey[com.nt.common.utils.State#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for Hibernate transaction</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Participating in existing transaction</td>
+</tr>
+
+<tr>
+<td>6400</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.transaction.internal.TransactionImpl category">org.hibernate.engine.transaction.internal.TransactionImpl</td>
+<td title="Message">begin</td>
+</tr>
+
+<tr>
+<td>6438</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.spi.ActionQueue category">org.hibernate.engine.spi.ActionQueue</td>
+<td title="Message">Executing identity-insert immediately</td>
+</tr>
+
+<tr>
+<td>6438</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    select
+        country_.ID,
+        country_.CODE as CODE2_0_,
+        country_.DESCRIPTION as DESCRIPT3_0_ 
+    from
+        REF_COUNTRY country_ 
+    where
+        country_.ID=?</td>
+</tr>
+
+<tr>
+<td>6453</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl category">org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl</td>
+<td title="Message">HHH000387: ResultSet's statement was not registered</td>
+</tr>
+
+<tr>
+<td>6453</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    select
+        state_.ID,
+        state_.CODE as CODE2_1_,
+        state_.DESCRIPTION as DESCRIPT3_1_ 
+    from
+        REF_STATE state_ 
+    where
+        state_.ID=?</td>
+</tr>
+
+<tr>
+<td>6453</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl category">org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl</td>
+<td title="Message">HHH000387: ResultSet's statement was not registered</td>
+</tr>
+
+<tr>
+<td>6453</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    insert 
+    into
+        user_registration
+        (COUNTRY_ID, DOB, EMAIL, FIRST_NAME, GENDER, LAST_NAME, STATE_ID) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)</td>
+</tr>
+
+<tr>
+<td>6631</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.id.IdentifierGeneratorHelper category">org.hibernate.id.IdentifierGeneratorHelper</td>
+<td title="Message">Natively generated identity: 35</td>
+</tr>
+
+<tr>
+<td>6632</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl category">org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl</td>
+<td title="Message">HHH000387: ResultSet's statement was not registered</td>
+</tr>
+
+<tr>
+<td>6634</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.spi.ActionQueue category">org.hibernate.engine.spi.ActionQueue</td>
+<td title="Message">Executing identity-insert immediately</td>
+</tr>
+
+<tr>
+<td>6634</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    insert 
+    into
+        user_languages
+        (LANG_DESC, LANG_ID) 
+    values
+        (?, ?)</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.id.IdentifierGeneratorHelper category">org.hibernate.id.IdentifierGeneratorHelper</td>
+<td title="Message">Natively generated identity: 62</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl category">org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl</td>
+<td title="Message">HHH000387: ResultSet's statement was not registered</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.spi.ActionQueue category">org.hibernate.engine.spi.ActionQueue</td>
+<td title="Message">Executing identity-insert immediately</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    insert 
+    into
+        user_languages
+        (LANG_DESC, LANG_ID) 
+    values
+        (?, ?)</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.id.IdentifierGeneratorHelper category">org.hibernate.id.IdentifierGeneratorHelper</td>
+<td title="Message">Natively generated identity: 63</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl category">org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl</td>
+<td title="Message">HHH000387: ResultSet's statement was not registered</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.spi.ActionQueue category">org.hibernate.engine.spi.ActionQueue</td>
+<td title="Message">Executing identity-insert immediately</td>
+</tr>
+
+<tr>
+<td>6753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">
+    insert 
+    into
+        user_credentials
+        (user_password, user_id, user_name) 
+    values
+        (?, ?, ?)</td>
+</tr>
+
+<tr>
+<td>6815</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.id.IdentifierGeneratorHelper category">org.hibernate.id.IdentifierGeneratorHelper</td>
+<td title="Message">Natively generated identity: 22</td>
+</tr>
+
+<tr>
+<td>6815</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl category">org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl</td>
+<td title="Message">HHH000387: ResultSet's statement was not registered</td>
+</tr>
+
+<tr>
+<td>6815</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.transaction.internal.TransactionImpl category">org.hibernate.engine.transaction.internal.TransactionImpl</td>
+<td title="Message">committing</td>
+</tr>
+
+<tr>
+<td>6815</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Processing flush-time cascades</td>
+</tr>
+
+<tr>
+<td>6815</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Dirty checking collections</td>
+</tr>
+
+<tr>
+<td>6815</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.internal.Collections category">org.hibernate.engine.internal.Collections</td>
+<td title="Message">Collection found: [com.nt.entity.UserRegistration.userlanguagesSet#35], was: [&lt;unreferenced&gt;] (initialized)</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">Listing entities:</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.entity.UserRegistration{country=com.nt.common.utils.Country#2, firstName=Raja, lastName=Ram, userlanguagesSet=[com.nt.entity.UserLanguages#62, com.nt.entity.UserLanguages#63], gender=M, dob=Tue Oct 03 14:04:40 IST 2017, userCredentials=com.nt.entity.UserCredentials#22, id=35, state=com.nt.common.utils.State#4, email=naga1995@gmail.com}</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.entity.UserLanguages{langDesc=null, userRegistration=null, id=62, langId=11}</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.entity.UserCredentials{password=naga138, userRegistration=com.nt.entity.UserRegistration#35, id=22, username=RajaRam}</td>
+</tr>
+
+<tr>
+<td>6832</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.entity.UserLanguages{langDesc=null, userRegistration=null, id=63, langId=12}</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Initiating transaction commit</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Committing Hibernate transaction on Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.nt.common.utils.Country#2], EntityKey[com.nt.common.utils.State#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.engine.transaction.internal.TransactionImpl category">org.hibernate.engine.transaction.internal.TransactionImpl</td>
+<td title="Message">committing</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Processing flush-time cascades</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Dirty checking collections</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.event.internal.AbstractFlushingEventListener category">org.hibernate.event.internal.AbstractFlushingEventListener</td>
+<td title="Message">Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">Listing entities:</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.common.utils.Country{countryDesc=Australia, countryCode=AU, id=2}</td>
+</tr>
+
+<tr>
+<td>6937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.util.EntityPrinter category">org.hibernate.internal.util.EntityPrinter</td>
+<td title="Message">com.nt.common.utils.State{stateDesc=Maharastra, stateCode=MH, id=4}</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.orm.hibernate5.HibernateTransactionManager category">org.springframework.orm.hibernate5.HibernateTransactionManager</td>
+<td title="Message">Closing Hibernate Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.nt.common.utils.Country#2], EntityKey[com.nt.common.utils.State#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener category">org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener</td>
+<td title="Message">After test method: context [DefaultTestContext@153f5a29 testClass = UserRegistrationServiceTest, testInstance = com.nt.user.service.UserRegistrationServiceTest@4590c9c3, testMethod = testCreateUser@UserRegistrationServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f560810 testClass = UserRegistrationServiceTest, locations = '{classpath:application-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener category">org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener</td>
+<td title="Message">After test class: context [DefaultTestContext@153f5a29 testClass = UserRegistrationServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f560810 testClass = UserRegistrationServiceTest, locations = '{classpath:application-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.context.support.GenericApplicationContext category">org.springframework.context.support.GenericApplicationContext</td>
+<td title="Message">Closing org.springframework.context.support.GenericApplicationContext@2a5ca609: startup date [Tue Oct 03 14:04:35 IST 2017]; root of context hierarchy</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'lifecycleProcessor'</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@80ec1f8: defining beans [userRegistrationCmd,commonQueriesDaoImpl,userRegistrationController,log4JConfiguration,userRegistrationDAOImpl,regService,formValidate,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dbcpDs,sessionFactory,ht,hibernateTransactionManager,org.springframework.transaction.config.internalTransactionalEventListenerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Retrieved dependent beans for bean 'sessionFactory': [commonQueriesDaoImpl, userRegistrationDAOImpl, ht, hibernateTransactionManager]</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Retrieved dependent beans for bean 'commonQueriesDaoImpl': [userRegistrationDAOImpl, regService, com.nt.user.service.UserRegistrationServiceTest]</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Retrieved dependent beans for bean 'userRegistrationDAOImpl': [regService]</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Retrieved dependent beans for bean 'regService': [userRegistrationController, com.nt.user.service.UserRegistrationServiceTest]</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DisposableBeanAdapter category">org.springframework.beans.factory.support.DisposableBeanAdapter</td>
+<td title="Message">Invoking destroy() on bean with name 'sessionFactory'</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.SessionFactoryImpl category">org.hibernate.internal.SessionFactoryImpl</td>
+<td title="Message">HHH000031: Closing</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.service.internal.AbstractServiceRegistryImpl category">org.hibernate.service.internal.AbstractServiceRegistryImpl</td>
+<td title="Message">Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries</td>
+</tr>
+
+<tr>
+<td>6953</td>
+<td title="Thread-3 thread">Thread-3</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl category">org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl</td>
+<td title="Message">Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries</td>
+</tr>
