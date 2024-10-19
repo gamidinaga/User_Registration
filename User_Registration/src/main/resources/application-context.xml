@@ -49,7 +49,7 @@
 		<property name="sessionFactory" ref="sessionFactory"></property>
 	</bean>
 	<!-- Java Mail Configuration -->
-	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+	<!--<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 	<property name="host" value="smtp.gmail.com" />
 	<property name="port" value="587" />
 	<property name="username" value="gamidi.nagaraju1995@gmail.com" />
@@ -61,7 +61,7 @@
        	      <prop key="mail.smtp.starttls.enable">true</prop>
        	   </props>
 	</property>
-</bean>
+     </bean>-->
 
   <!-- For times when you need more complex processing, passing data to the scheduled job -->
     <bean name="complexJobDetail"    class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
